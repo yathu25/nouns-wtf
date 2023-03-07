@@ -1,0 +1,4 @@
+pandas~=1.5.3
+boto3~=1.26.85
+selenium~=4.8.2
+webdriver-manager~=3.8.5
