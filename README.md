@@ -17,7 +17,7 @@ It uses a serverless architecture
 #### Get auction with a particular noun id
 
 ```http
-  GET /api/noun-auctions?id=${id}
+  GET /api/noun-auctions?id={id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -125,7 +125,7 @@ So when our data grows GET /api/noun-auctions might just return first 1000 entri
 The solution to this problem is to add pgination to the API, here the new APIs to Get all auctions will be:
 
 ```http
-  GET /api/noun-auctions?page=${page}&limit=&{limit}
+  GET /api/noun-auctions?page={page}&limit={limit}
 ```
 
 
