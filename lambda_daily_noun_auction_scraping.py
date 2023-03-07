@@ -40,7 +40,7 @@ def lambda_handler(event, context):
             Item={
                 "noun_id": previous_noun,
                 "winner_address": "nounders.eth",
-                "winning_bid_eth": Decimal(0)
+                "winning_bid_eth": "0"
             }
         )
     else:
